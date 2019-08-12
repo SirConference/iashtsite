@@ -7,7 +7,7 @@ html{scroll-behavior: smooth;}
 
 .navbar{
     height: 55px;
-    background-color: black;
+    background-color: #242527;
 }
 
 .logo{
@@ -36,6 +36,7 @@ section > div.container_12{
 .sidemenu>ul>li{
     list-style: none;
     position: relative;
+    display: block;
 }
 
 .sideMenuList{
@@ -186,4 +187,10 @@ ul.inside-carac{
     height: 20px;
     display: block;
     border-right: 1px solid rgb(224, 220, 220);
+}
+
+
+footer.footer{
+    height: 80px;
+    background-color: #242527;
 }
