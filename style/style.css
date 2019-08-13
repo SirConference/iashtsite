@@ -204,3 +204,60 @@ footer.footer{
     height: 80px;
     background-color: #242527;
 }
+
+
+/*
+ Quote block for begining
+*/
+.quote-top{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    position: relative;
+    border-right: 1px solid rgb(224, 220, 220);
+    border-left: 1px solid rgb(224, 220, 220);
+}
+
+
+.quote-top::before{
+    z-index: 0;
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    right: -1;
+    content: '';
+    background-image: url(../images/border_scroll_block_up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 459px;
+    height: 20px;
+    display: block;
+    border-right: 1px solid rgb(224, 220, 220);
+}
+
+.quote-top::after{
+    z-index: 0;
+    position: absolute;
+    bottom: -20px;
+    left: -1px;
+    right: -1px;
+    content: '';
+    background-image: url(../images/border_scroll_block_down.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 459px;
+    height: 20px;
+    display: block;
+    border-right: 1px solid rgb(224, 220, 220);}
+
+div.quote-top>p {
+    color: #242527;
+    font-weight: lighter;
+}
+
+p.summary {
+    margin-top: 30px;
+}
