@@ -4,7 +4,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 html{scroll-behavior: smooth;}
-
+/**
+NAVIGATION
+**/
 .navbar{
     height: 55px;
     background-color: #242527;
@@ -17,6 +19,9 @@ html{scroll-behavior: smooth;}
     height: 55px;
 }
 
+
+
+/* Container */
 section.content{
     background-image: url(../images/Background.jpg);
     background-size: contain;
@@ -125,6 +130,11 @@ ul.inside-carac{
     list-style: none;
     font-weight: normal;
     padding-left: 15px;
+}
+
+ul.addInfo>li>ul>li{
+    font-weight: lighter;
+    list-style: georgian;
 }
 
 
