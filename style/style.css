@@ -103,6 +103,9 @@ h2{
     font-weight: 900;
     margin-bottom: 5px;
 }
+h2#physical{
+    margin-top: 0;
+}
 
 h2::after{
     content: '';
@@ -207,9 +210,10 @@ footer.footer{
 
 
 /*
- Quote block for begining
+Quote block for begining
 */
 .quote-top{
+    display: inline-block;
     font-size: 14px;
     font-style: italic;
     font-weight: lighter;
@@ -262,4 +266,24 @@ div.quote-top>p {
 
 p.summary {
     margin-top: 30px;
+}
+
+
+/**
+MEDIA QUERRIES
+**/
+
+@media screen and (max-width: 1049px){
+    .sidemenu{
+        display: none;
+    }
+    .container_12 .prefix_3 {
+        padding-left: 0px;
+    }
+    .container_12 .grid_9 {
+        width: 770px;
+    }
+    section.content{
+        background-image: none;
+    }
 }
