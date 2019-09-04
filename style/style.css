@@ -210,7 +210,6 @@ footer.footer{
  Quote block for begining
 */
 .quote-top{
-    display: inline-block;
     font-size: 14px;
     font-style: italic;
     font-weight: lighter;
